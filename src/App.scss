@@ -1,3 +1,15 @@
-.starter {
-  font-size: 18px;
+@font-face {
+  font-family: Mont;
+  src: url("../public/fonts/Mont-Regular.otf");
+}
+
+iframe {
+  display: none;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  font-family: Mont, sans-serif;
 }
