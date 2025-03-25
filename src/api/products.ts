@@ -6,6 +6,6 @@ export const getProducts = () => {
   return client.get<Product[]>();
 };
 
-export const getProductByID = (productID : string) => {
+export const getProductByID = (productID: string) => {
   return client.getByID<PhoneDetails>(productID);
 };
